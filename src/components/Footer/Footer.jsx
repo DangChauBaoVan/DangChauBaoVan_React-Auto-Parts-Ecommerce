@@ -4,7 +4,7 @@ import package_icon from "../../assets/img/icon_package.png";
 import delivery from "../../assets/img/icon_delivery.png";
 import map from "../../assets/img/icon_map.png";
 import { GoArrowRight } from "react-icons/go";
-import BCT from "../../assets/img/bct.png";
+import bct from "../../assets/img/BCT.png";
 import { FaGooglePlay } from "react-icons/fa";
 import { FaApple } from "react-icons/fa";
 import { MdStar } from "react-icons/md";
@@ -97,7 +97,7 @@ export default function Footer() {
                 09:00 - 22:00 từ Thứ 2 - Thứ 6
               </span>
             </p>
-            <img src={BCT} alt="Đã thông báo" className="mt-3 w-48" />
+            <img src={bct} alt="Đã thông báo" className="mt-3 w-48" />
           </div>
           <div className="grid grid-cols-3 gap-6 ">
             <div>
