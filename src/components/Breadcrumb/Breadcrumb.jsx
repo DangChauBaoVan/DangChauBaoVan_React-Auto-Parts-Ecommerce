@@ -12,7 +12,7 @@ export default function Breadcrumb() {
         {crumbs.map((crumb, index) => (
           <li key={index} className="flex items-center">
             <a
-              href={crumb.href}
+              
               className={`hover:text-primary ${index === crumbs.length - 1 ? "text-[#024897] font-medium" : ""}`}
             >
               {crumb.name}
