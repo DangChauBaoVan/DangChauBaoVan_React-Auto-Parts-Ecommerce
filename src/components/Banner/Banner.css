@@ -1,0 +1,24 @@
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: white !important;
+  border-radius: 9999px !important; /* bo tròn */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  width: 40px !important;
+  height: 40px !important;
+  color: #333 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: #0373f3 !important;
+  color: white !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 16px !important; /* nhỏ lại */
+  font-weight: bold;
+}
